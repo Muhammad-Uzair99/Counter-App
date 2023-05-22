@@ -59,21 +59,27 @@
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
-<body>
-    <header class="text-3xl font-bold underline">
+<body class="flex flex-col h-screen border-solid border-black border-2">
+
+    <header class="font-bold font-serif text-6xl text-center my-6 max-sm:text-5xl max-sm:w-5/6 max-sm:mx-auto">
         <!--Add website name or logo here-->
-        <p>Header</p>
+        <h1>Counter App</h1>
     </header>
-    <nav>
-        <!--Add your website navagation here-->
-    </nav>
-    <main>
+
+    <main class="flex flex-col gap-7 justify-around p-7 h-screen border-solid border-black border-2 rounded-2xl w-3/5 mx-auto max-sm:w-5/6">
         <!--Add your main content here-->
-        <p>Heading</p>
+        <p class="text-center font-bold text-8xl underline">0</p>
+        <div class="flex justify-around">
+            <button class="btn">Plus</button>
+            <button class="btn">Minus</button>
+        </div>
+        <button class="btn mx-auto">Save</button>
+        <p class="text-center text-2xl">Previous Entries: </p>
     </main>
-    <footer>
+
+    <footer class="p-7 mx-auto font-thin italic">
         <!--Add copyright notices and other footer content here-->
-        <p>footer</p>
+        <p>This repository is licensed under the MIT License.</p>
     </footer>
 
     <!--Include JavaScript files here-->

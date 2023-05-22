@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+    .btn {
+        @apply border-solid border-black border-2 rounded-full w-2/5 font-bold text-3xl pb-1 max-sm:font-semibold max-sm:text-2xl;
+    }
+}
