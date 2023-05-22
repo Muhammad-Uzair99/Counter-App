@@ -59,21 +59,21 @@
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
-<body class="flex flex-col h-screen border-solid border-black border-2">
+<body class="flex flex-col h-screen border-solid border-black border-2 bg-gradient-to-r from-slate-950 from-1% via-black to-slate-950 to-1% text-fuchsia-500">
 
     <header class="font-bold font-serif text-6xl text-center my-6 max-sm:text-5xl max-sm:w-5/6 max-sm:mx-auto">
         <!--Add website name or logo here-->
         <h1>Counter App</h1>
     </header>
 
-    <main class="flex flex-col gap-7 justify-around p-7 h-screen border-solid border-black border-2 rounded-2xl w-3/5 mx-auto max-sm:w-5/6">
+    <main class="flex flex-col justify-around p-7 h-screen bg-gray-900 border-solid border-black border-2 rounded-2xl w-3/5 mx-auto max-sm:w-5/6">
         <!--Add your main content here-->
         <p id="count" class="text-center font-bold text-8xl underline">0</p>
         <div class="flex justify-around">
-            <button id="plus-btn" onclick="add()" class="btn">Plus</button>
-            <button id="minus-btn" onclick="subtract()" class="btn">Minus</button>
+            <button id="plus-btn" onclick="add()" class="btn active:bg-purple-950 hover:bg-gray-950">Plus</button>
+            <button id="minus-btn" onclick="subtract()" class="btn active:bg-purple-950 hover:bg-gray-950">Minus</button>
         </div>
-        <button id="save-btn" onclick="save()" class="btn mx-auto">Save</button>
+        <button id="save-btn" onclick="save()" class="btn mx-auto active:bg-purple-950 hover:bg-gray-950">Save</button>
         <p id="entries" class="text-center text-2xl">Previous Entries: </p>
     </main>
 
