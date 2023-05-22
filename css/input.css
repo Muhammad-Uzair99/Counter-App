@@ -4,6 +4,6 @@
 
 @layer utilities {
     .btn {
-        @apply border-solid border-purple-600 border-2 rounded-full w-5/12 font-bold text-3xl pb-1 max-sm:font-semibold max-sm:text-2xl;
+        @apply border-solid border-purple-600 border-2 shadow-lg shadow-black rounded-full w-5/12 font-bold text-3xl pb-1 max-sm:font-semibold max-sm:text-2xl;
     }
 }
